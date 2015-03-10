@@ -1,0 +1,27 @@
+﻿@model ASPNETMVC5.Models.LoginInfo
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+@using (Html.BeginForm())
+{
+    @*@Html.Label("LoginID", "Login ID:");
+    @Html.TextBox("LoginID");
+
+        
+    <br/>
+
+    @Html.Label("Password", "Password:");
+    @Html.Password("Password");*@
+    
+    @Html.Label("LoginID", "Login ID:");
+    @Html.TextBoxFor(m => m.LoginID);
+    <br />
+
+    @Html.Label("Password", "Password:");
+    @Html.PasswordFor(m => m.Password);
+
+    <br />
+    <input type="submit" value="Submit" />
+}

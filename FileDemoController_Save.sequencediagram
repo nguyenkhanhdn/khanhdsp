@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="1af5795e-6957-455f-b6ac-1ca5a8396af3" name="FileDemoController_Save" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="b0a5e41a-abea-40d2-ba8d-6d46cf781ac4" name="FileDemoController_Save" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="a76e9b50-0a2f-44ff-815a-c37310584330" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="bca14d2f-4954-42c8-ae14-1240aedc62b2" LastKnownName="this : FileDemoController" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="47e8a0a4-75a7-44ee-9049-60a7dfbc26b3" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="ae6bfd2a-2e7b-4536-a698-789359c0cd6f" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="d008f7d1-1b4b-4421-bf80-49df86f5985f" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="ae6bfd2a-2e7b-4536-a698-789359c0cd6f" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="3bc363b6-ada7-4fc7-9dc2-8e8122f2e4dd" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bca14d2f-4954-42c8-ae14-1240aedc62b2" LastKnownName="this : FileDemoController" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="91049db8-3930-4a31-8162-f9c948eec539" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="d008f7d1-1b4b-4421-bf80-49df86f5985f" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bca14d2f-4954-42c8-ae14-1240aedc62b2" LastKnownName="this : FileDemoController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="47e8a0a4-75a7-44ee-9049-60a7dfbc26b3" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="d46e4ef9-3e85-4ae9-8bd2-3536331335d6" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bca14d2f-4954-42c8-ae14-1240aedc62b2" LastKnownName="this : FileDemoController" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="bca14d2f-4954-42c8-ae14-1240aedc62b2" name="this : FileDemoController" isActor="false" lifelineDisplayName="this : FileDemoController" referencedInstance="(Assembly=$(07a1017b-467f-425e-896a-a07065a9ddd4.OutputPathUri) Namespace=ASPNETMVC5.Controllers Type=FileDemoController ObjectInstance=&quot;Object instance 4&quot;)" referencedType="ASPNETMVC5‎.Controllers‎.FileDemoController">
+            <referencesInternal>
+              <reference Id="813cce8b-e1a1-4da1-bdd8-1cbc419c958f" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ASPNETMVC5.Controllers)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(07a1017b-467f-425e-896a-a07065a9ddd4.OutputPathUri)&amp;quot; Namespace=ASPNETMVC5.Controllers Type=FileDemoController)&quot;)" tag="DGQL" />
+              <reference Id="242dd0c2-f077-4d52-8f53-572cdd8760b5" handle="(Assembly=&quot;$(07a1017b-467f-425e-896a-a07065a9ddd4.OutputPathUri)&quot; Namespace=ASPNETMVC5.Controllers Type=FileDemoController)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="ae6bfd2a-2e7b-4536-a698-789359c0cd6f" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="47e8a0a4-75a7-44ee-9049-60a7dfbc26b3" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="d1a44417-e2ec-447f-9262-25d48f72d0b8" name="Save" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="ec67cc46-49f7-415c-8a05-bcd75ee53e77" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=ASPNETMVC5.Controllers)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(07a1017b-467f-425e-896a-a07065a9ddd4.OutputPathUri)&amp;quot; Namespace=ASPNETMVC5.Controllers Type=FileDemoController)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(07a1017b-467f-425e-896a-a07065a9ddd4.OutputPathUri)&amp;quot; Namespace=ASPNETMVC5.Controllers Type=FileDemoController Member=(Name=Save OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="79cab173-aaee-4d10-ad6d-49958ce5ed3d" handle="(Assembly=&quot;$(07a1017b-467f-425e-896a-a07065a9ddd4.OutputPathUri)&quot; Namespace=ASPNETMVC5.Controllers Type=FileDemoController Member=(Name=Save OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="91049db8-3930-4a31-8162-f9c948eec539" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="d008f7d1-1b4b-4421-bf80-49df86f5985f" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="3bc363b6-ada7-4fc7-9dc2-8e8122f2e4dd" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="d46e4ef9-3e85-4ae9-8bd2-3536331335d6" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

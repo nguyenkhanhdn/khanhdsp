@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="a48e4af7-0c49-4ec7-85f8-9cf2910c1599" name="UMLComponentDiagram1" linkedPackageId="cfcfb1a5-e12a-4b7b-9026-2046035fcb8a" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="02e62083-9cc9-4971-90f1-4be0ed56b3de">
+      <profileInstance Id="a58d8c60-e7c5-444d-b5b0-1c0e587cf28b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c9e85e96-374b-48a5-8b17-b48ce4837ce4">
+      <profileInstance Id="eeb6f82d-e498-43d5-8399-65c82a2a9414" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="36425443-5c1f-4a35-85ed-1ca9143c8fc1" name="DAL" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5e5039b2-3e02-471f-8675-f31603411b3f" />
+        <suppliersInternal>
+          <dependency Id="853b86f6-ec68-42de-9e63-3a9162b5f814">
+            <componentMoniker Id="cc46b166-884b-4e80-8dce-442e02cd060e" LastKnownName="Component1" />
+            <elementDefinition Id="cfc0e7f2-e424-4784-9a3c-64268ac6237f" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="cc46b166-884b-4e80-8dce-442e02cd060e" name="Component1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="32a8111a-2a3d-47e3-9d75-dc325fbadb09" />
+        <ownedAttributesInternal>
+          <part Id="b5b52336-d6c8-43af-98a2-2a96b3854447" name="Part1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="bd958ea2-bb0f-4e5a-ab2a-c219b81cc4fa" />
+            <type_NamedElement>
+              <componentMoniker Id="095f6abd-d5c8-4789-bc5a-e8e0643f9901" LastKnownName="Component2" />
+            </type_NamedElement>
+          </part>
+          <providedInterface Id="0ccc3d4f-90c8-4151-827e-cd960ea54ea6" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="2940860c-0654-4599-8a96-f69f0c9758e9" />
+            <type_NamedElement>
+              <interfaceMoniker Id="a40d19dd-280c-4c37-9443-f1cc2a79fb1e" LastKnownName="Interface1" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="095f6abd-d5c8-4789-bc5a-e8e0643f9901" name="Component2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cde6e91b-6af0-4483-b2bf-69bcdd2aef17" />
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="a40d19dd-280c-4c37-9443-f1cc2a79fb1e" name="Interface1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="501c6be3-fc85-43ac-8b68-4e9908f95fbd" />
+      </Interface>
+    </modelContainsNamedElements>
+  </packagedElements>
+  <package Id="cfcfb1a5-e12a-4b7b-9026-2046035fcb8a" name="ModelingProject1">
+    <elementDefinition Id="0a81c54b-faaf-43fd-ac97-238808b2c8b6" />
+  </package>
+</componentModel>

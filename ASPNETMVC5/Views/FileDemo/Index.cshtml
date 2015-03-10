@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<h1>Student Information</h1>
+
+Student name: @ViewBag.Name
+<br />
+Student address: @ViewBag.Address
+<br />
+Student phone: @ViewBag.Phone
+
+<p />
+<h2>Index</h2>
+@using (Html.BeginForm("Save","FileDemo"))
+{
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="sname" /></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><input type="text" name="saddress" /></td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td><input type="text" name="sphone" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="Save" /></td>
+        </tr>
+
+    </table>
+}
+@using (Html.BeginForm("Open", "FileDemo"))
+{ 
+    <input type="submit" value="Open" />
+}
