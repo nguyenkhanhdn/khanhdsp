@@ -32,5 +32,10 @@ namespace ASPNETMVC5.Controllers
             ViewBag.Phone = lines[2];
             return View("Index");
         }
+
+        public ActionResult TestChange()
+        {
+            return View();
+        }
     }
 }
