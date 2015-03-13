@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="fe932830-e1b1-4587-b4c5-5af1dd749c92" name="Activity1" linkedPackageId="886180de-283f-4114-b0a1-2ca705a1ca9f" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="60a2a0df-ba8e-461a-8a50-bdf81b28d49f">
+      <profileInstance Id="b167a3cc-ff8a-4577-ad44-758d09bd8e31" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="25285d4c-4d03-4ef4-a2c7-ea4c2a625790">
+      <profileInstance Id="59ec188a-e8ea-4c5c-9174-ac932625e532" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="4e8a2bce-29fb-4481-9029-42dd76842e2a" name="Activity1" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="3edd1db3-1045-43fa-b0ae-3c6e3f661913" />
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="886180de-283f-4114-b0a1-2ca705a1ca9f" name="ModelingProject2">
+    <elementDefinition Id="e465fffb-c972-47a2-be03-ec066a7b2ec9" />
+  </package>
+</activityRootModel>
